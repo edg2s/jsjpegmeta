@@ -640,7 +640,7 @@ this.JpegMeta.JpegFile.prototype._markers = {
 
     /* Reserved markers */
     0x01: ["JPG13", null] /* For temporary private use in arithmetic coding */
-    /* 02 -> bf are reserverd */
+    /* 02 -> bf are reserved */
 };
 
 /* Private methods */
