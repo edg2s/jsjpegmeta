@@ -791,7 +791,7 @@ JpegMeta.JpegFile.prototype._exifHandler = function _exifHandler(mark, pos) {
     } else if (endian_field === "MM") {
 	endian = ">";
     } else {
-	throw new Error("Malformed TIFF meta-data. Unknown endianess: " + endian_field);
+	throw new Error("Malformed TIFF meta-data. Unknown endianness: " + endian_field);
     }
 
     magic_field = JpegMeta.parseNum(endian, this._binary_data, pos + 2, 2);
